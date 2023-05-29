@@ -1,0 +1,153 @@
+
+body{
+   background-color: rgb(247, 229, 208);
+   background-size: cover;
+   background-image: url('bmg.jpg');
+   background-size: cover;
+   color: #fff;
+  
+}
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #080808;
+    display: block;
+    transition: 0.3s;
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+    border-color: #080808;
+  }
+
+  .header{
+    padding: 18px;
+    height: 60px;
+    background-color: rgba(78, 61, 34, 0.712);
+    border-radius: 5px;
+  }
+
+  .b{
+    height: 50px;
+    text-align: center;
+}
+
+  .a{
+    height: 50px;
+    width: 50px;
+
+  }
+
+  .content{
+    margin-top: 10px;
+    width: auto;
+    height: auto;
+
+  }
+
+  .sidenav{
+    width: 200px;
+    background-color: #DDA0DD;
+    border-radius: 5px;
+    float: left;
+    margin-left: 0%;
+    padding-bottom: 5px;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-right: 50px;
+  }
+  
+  .main{
+
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    padding-bottom: 40px;
+    margin-left: 160pt;
+  }
+
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  footer{
+    background-color: black;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer p{
+    color: #fff;
+    font-size: 2rem;
+  }
+  
+  button{
+    margin-left: 100px;
+    height: 35px;
+    width: 100px;
+    background-color: bisque;
+    border-radius: 5px;
+  
+  }
+
+  .array-container p{
+    font-size: 2rem;
+  }
+
+  section{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+h1{
+    font-size: 3rem;
+}
+li{
+    font-size: 1.4rem;
+    list-style: none;
+    letter-spacing: 2px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.buttons button{
+    margin-left: 0;
+    height: auto;
+    width: max-content;
+    padding: 10px;
+    font-size: 2rem;
+    border-radius: 10px;
+    background-color: black;
+    color: wheat;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.other-examples{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.other-examples > *{
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.other-examples p a{
+  color: #fff;
+}

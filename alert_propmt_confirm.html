@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>alert_propmt_confirm</title>
+<style>
+     h1{
+        margin-left: 20px;
+        font-size: 40px;
+    }
+
+    p{
+        margin-left: 30px;
+        font-size: 20px;
+    }
+
+    .cond{
+        margin-left: 100px;
+        font-size: 20px;
+    }
+</style>
+</head>
+<div class="header">    
+    <div class="b"> 
+        <h1>Alert, Prompt and Confirm</h1>
+        <link rel="stylesheet" href="style.css">
+        <script type=text/javascript src="script.js"></script>
+    </div>
+</div>
+
+<div class="content">
+    <div id="mySidenav" class="sidenav">
+        <div class="b">
+            <a href="index.html">Home</a>
+        </div>
+        <div class="b">
+            <a href="if-else.html">if-else</a>
+        </div>
+        <div class="b">
+            <a href="if-elif-else.html">if-elif-else</a>
+        </div>
+        <div class="b"> 
+            <a href="#contact">nested if-else</a>
+        </div>
+        <div class="b"> 
+            <a href="alert_propmt_confirm.html">alert, prompt and confirm</a>
+        </div>
+        <div class="# b"><a href="arithmetic.html">Arithmetic</a></div>  
+
+        <div class="b"> 
+            <a href="array.html">Array</a>
+        </div>
+
+        <div class="b"> 
+            <a href="about.html">About</a>
+        </div>
+
+    </div>
+    <div class="main">
+        <br>
+            <p>alert(message): Display a popup box with the specified message with the OK button.</p>
+            <p>prompt(message, defaultValue): Display a popup box to take the user's input with the OK and Cancel buttons.</p>
+            <p>confirm(message): Display a popup box with the specified message with OK and Cancel buttons.</p>
+
+            <br>
+            <p>Try and see some example:</p>
+            <div class="cond">
+                <p>Alert:</p>
+                <button onclick="myalert()">Try it</button>
+            
+                <br>
+                <br>
+                <p>Confirm:</p>
+                <button onclick="myconfirm()">Try it</button>
+
+                <p id="demo_con" class="try">....</p>
+
+                <p>Prompt:</p>
+                <button onclick="myprompt()">Try it</button>
+
+                <p id="demo_prop" class="try">.....</p>
+
+                
+    </div>  
+</div>
+    
+    <footer>
+      <p>Developed by Jonathan M. Guirindola</p>    
+    </footer>
+
+<body>
+   
+    
+</body>
+</html>
